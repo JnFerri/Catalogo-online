@@ -1,0 +1,46 @@
+header{
+    background-color: black;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#produto{
+    width: 45%;
+    margin: 1rem 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px ;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.produto__nome{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#produto__imagem{
+    width: 50%;
+    margin-top: 10px;
+     
+}
+
+.produto__descricao{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.produto__valor{
+    font-size: 20px;
+    font-weight: bold;
+}
